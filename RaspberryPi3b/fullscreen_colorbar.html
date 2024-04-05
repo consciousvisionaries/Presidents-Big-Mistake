@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="refresh" content="60">
+
+    <style>
+        /* Remove default margin and padding */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: black; /* Set background to black */
+        }
+        .container {
+            display: flex;
+            width: 100vw; /* Set container width to full viewport width */
+            height: 100vh; /* Set container height to full viewport height */
+            overflow: hidden; /* Prevent any potential scrolling */
+        }
+        .color-column {
+            flex-grow: 1; /* Make each column take up equal space */
+            height: 100%;
+        }
+        /* Define the colors */
+        .grey { background-color: grey; }
+        .yellow { background-color: yellow; }
+        .cyan { background-color: cyan; }
+        .green { background-color: green; }
+        .pink { background-color: pink; }
+        .red { background-color: red; }
+        .blue { background-color: blue; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="color-column grey"></div>
+    <div class="color-column yellow"></div>
+    <div class="color-column cyan"></div>
+    <div class="color-column green"></div>
+    <div class="color-column pink"></div>
+    <div class="color-column red"></div>
+    <div class="color-column blue"></div>
+</div>
+
+</body>
+</html>
