@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Show xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ShowVersion>1</ShowVersion>
+  <Preferences>
+    <HideGlobalSettingBehaviorPanel>false</HideGlobalSettingBehaviorPanel>
+    <HideGlobalSettingTimersPanel>false</HideGlobalSettingTimersPanel>
+    <HideGlobalSettingIOPanel>false</HideGlobalSettingIOPanel>
+    <HideGlobalSettingAudioPanel>false</HideGlobalSettingAudioPanel>
+    <HideGlobalSettingDmxPanel>false</HideGlobalSettingDmxPanel>
+    <HideGlobalSettingServosPanel>false</HideGlobalSettingServosPanel>
+    <HideSceneSettingNewBehaviorPanel>false</HideSceneSettingNewBehaviorPanel>
+    <HideSceneSettingSoundPanel>false</HideSceneSettingSoundPanel>
+    <HideSceneSettingDelaysAndLengthPanel>false</HideSceneSettingDelaysAndLengthPanel>
+    <HideSceneSettingOldBehaviorPanel>false</HideSceneSettingOldBehaviorPanel>
+  </Preferences>
+  <Joystick>
+    <Profiles />
+  </Joystick>
+  <AutoExternalConsoleLayout>true</AutoExternalConsoleLayout>
+  <ExportToControllerSDCardIsDefault>true</ExportToControllerSDCardIsDefault>
+  <AutoDmxChannelLayout>true</AutoDmxChannelLayout>
+  <DeviceList>
+    <Devices>
+      <Device xsi:type="DeviceFlexMax2023">
+        <CurrentDmxChannelLimit>128</CurrentDmxChannelLimit>
+        <CustomName />
+        <DMX_Address>0</DMX_Address>
+        <Outputs>
+          <Output ID="1">
+            <GridRowHeight>20</GridRowHeight>
+            <ControlOutputData>
+              <OutputTypeByte>0</OutputTypeByte>
+              <ControlOutputNumber>1</ControlOutputNumber>
+              <TextInverted>false</TextInverted>
+              <NormallyOn>false</NormallyOn>
+              <HideInAnimation>false</HideInAnimation>
+            </ControlOutputData>
+            <MinValue>0</MinValue>
+            <DMX_Offset>0</DMX_Offset>
+            <ViewAsByte>6</ViewAsByte>
+            <IsVisible>true</IsVisible>
+            <DMX_Mask>1</DMX_Mask>
+            <CustomColor />
+            <ExternalConsole>
+              <PageList />
+              <AddressList />
+              <OffsetList />
+            </ExternalConsole>
+            <CustomName>RED BUTTON Access</CustomName>
+            <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
+            <RecordingEnabled>false</RecordingEnabled>
+            <Muted>false</Muted>
+          </Output>
+          <Output ID="2">
+            <GridRowHeight>20</GridRowHeight>
+            <ControlOutputData>
+              <OutputTypeByte>3</OutputTypeByte>
+              <ControlOutputNumber>2</ControlOutputNumber>
+              <TextInverted>false</TextInverted>
+              <NormallyOn>true</NormallyOn>
+              <HideInAnimation>false</HideInAnimation>
+            </ControlOutputData>
+            <MinValue>0</MinValue>
+            <DMX_Offset>0</DMX_Offset>
+            <ViewAsByte>6</ViewAsByte>
+            <IsVisible>true</IsVisible>
+            <DMX_Mask>2</DMX_Mask>
+            <CustomColor />
+            <ExternalConsole>
+              <PageList />
+              <AddressList />
+              <OffsetList />
+            </ExternalConsole>
+            <CustomName>Dual Door Magnet</CustomName>
+            <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
+            <RecordingEnabled>false</RecordingEnabled>
+            <Muted>false</Muted>
+          </Output>
+          <Output ID="3">
+            <GridRowHeight>20</GridRowHeight>
+            <ControlOutputData>
+              <OutputTypeByte>0</OutputTypeByte>
+              <ControlOutputNumber>3</ControlOutputNumber>
+              <TextInverted>false</TextInverted>
+              <NormallyOn>false</NormallyOn>
+              <HideInAnimation>false</HideInAnimation>
+            </ControlOutputData>
+            <MinValue>0</MinValue>
+            <DMX_Offset>0</DMX_Offset>
+            <ViewAsByte>6</ViewAsByte>
+            <IsVisible>true</IsVisible>
+            <DMX_Mask>4</DMX_Mask>
+            <CustomColor />
+            <ExternalConsole>
+              <PageList />
+              <AddressList />
+              <OffsetList />
+            </ExternalConsole>
+            <CustomName />
+            <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
+            <RecordingEnabled>true</RecordingEnabled>
+            <Muted>false</Muted>
+          </Output>
+          <Output ID="4">
+            <GridRowHeight>20</GridRowHeight>
+            <ControlOutputData>
+              <OutputTypeByte>0</OutputTypeByte>
+              <ControlOutputNumber>4</ControlOutputNumber>
+              <TextInverted>false</TextInverted>
+              <NormallyOn>false</NormallyOn>
+              <HideInAnimation>false</HideInAnimation>
+            </ControlOutputData>
+            <MinValue>0</MinValue>
+            <DMX_Offset>0</DMX_Offset>
+            <ViewAsByte>6</ViewAsByte>
+            <IsVisible>true</IsVisible>
+            <DMX_Mask>8</DMX_Mask>
+            <CustomColor />
+            <ExternalConsole>
+              <PageList />
+              <AddressList />
+              <OffsetList />
+            </ExternalConsole>
+            <CustomName />
+            <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
+            <RecordingEnabled>true</RecordingEnabled>
+            <Muted>false</Muted>
+          </Output>
+          <Output ID="5">
+            <GridRowHeight>20</GridRowHeight>
+            <ControlOutputData>
+              <OutputTypeByte>0</OutputTypeByte>
+              <ControlOutputNumber>5</ControlOutputNumber>
+              <TextInverted>false</TextInverted>
+              <NormallyOn>false</NormallyOn>
+              <HideInAnimation>false</HideInAnimation>
+            </ControlOutputData>
+            <MinValue>0</MinValue>
+            <DMX_Offset>0</DMX_Offset>
+            <ViewAsByte>6</ViewAsByte>
+            <IsVisible>true</IsVisible>
+            <DMX_Mask>16</DMX_Mask>
+            <CustomColor />
+            <ExternalConsole>
+              <PageList />
+              <AddressList />
+              <OffsetList />
+            </ExternalConsole>
+            <CustomName>C2 3 Dial Puzzle LED</CustomName>
+            <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
+            <RecordingEnabled>false</RecordingEnabled>
+            <Muted>false</Muted>
+          </Output>
+          <Output ID="6">
+            <GridRowHeight>20</GridRowHeight>
+            <ControlOutputData>
+              <OutputTypeByte>0</OutputTypeByte>
+              <ControlOutputNumber>6</ControlOutputNumber>
+              <TextInverted>false</TextInverted>
+              <NormallyOn>false</NormallyOn>
+              <HideInAnimation>false</HideInAnimation>
+            </ControlOutputData>
+            <MinValue>0</MinValue>
+            <DMX_Offset>0</DMX_Offset>
+            <ViewAsByte>6</ViewAsByte>
+            <IsVisible>true</IsVisible>
+            <DMX_Mask>32</DMX_Mask>
+            <CustomColor />
+            <ExternalConsole>
+              <PageList />
+              <AddressList />
+              <OffsetList />
+            </ExternalConsole>
+            <CustomName>C2 Floor LED x2</CustomName>
+            <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
+            <RecordingEnabled>false</RecordingEnabled>
+            <Muted>false</Muted>
+          </Output>
+          <Output ID="7">
+            <GridRowHeight>20</GridRowHeight>
+            <ControlOutputData>
+              <OutputTypeByte>0</OutputTypeByte>
+              <ControlOutputNumber>7</ControlOutputNumber>
+              <TextInverted>false</TextInverted>
+              <NormallyOn>false</NormallyOn>
+              <HideInAnimation>false</HideInAnimation>
+            </ControlOutputData>
+            <MinValue>0</MinValue>
+            <DMX_Offset>0</DMX_Offset>
+            <ViewAsByte>6</ViewAsByte>
+            <IsVisible>true</IsVisible>
+            <DMX_Mask>64</DMX_Mask>
+            <CustomColor />
+            <ExternalConsole>
+              <PageList />
+              <AddressList />
+              <OffsetList />
+            </ExternalConsole>
+            <CustomName />
+            <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
+            <RecordingEnabled>true</RecordingEnabled>
+            <Muted>false</Muted>
+          </Output>
+          <Output ID="8">
+            <GridRowHeight>20</GridRowHeight>
+            <ControlOutputData>
+              <OutputTypeByte>0</OutputTypeByte>
+              <ControlOutputNumber>8</ControlOutputNumber>
+              <TextInverted>false</TextInverted>
+              <NormallyOn>false</NormallyOn>
+              <HideInAnimation>false</HideInAnimation>
+            </ControlOutputData>
+            <MinValue>0</MinValue>
+            <DMX_Offset>0</DMX_Offset>
+            <ViewAsByte>6</ViewAsByte>
+            <IsVisible>true</IsVisible>
+            <DMX_Mask>128</DMX_Mask>
+            <CustomColor />
+            <ExternalConsole>
+              <PageList />
+              <AddressList />
+              <OffsetList />
+            </ExternalConsole>
+            <CustomName />
+            <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
+            <RecordingEnabled>true</RecordingEnabled>
+            <Muted>false</Muted>
+          </Output>
+          <Output ID="9">
+            <GridRowHeight>20</GridRowHeight>
+            <ControlOutputData>
+              <OutputTypeByte>0</OutputTypeByte>
+              <ControlOutputNumber>9</ControlOutputNumber>
+              <TextInverted>false</TextInverted>
+              <NormallyOn>false</NormallyOn>
+              <HideInAnimation>false</HideInAnimation>
+            </ControlOutputData>
+            <MinValue>0</MinValue>
+            <DMX_Offset>1</DMX_Offset>
+            <ViewAsByte>6</ViewAsByte>
+            <IsVisible>true</IsVisible>
+            <DMX_Mask>1</DMX_Mask>
+            <CustomColor />
+            <ExternalConsole>
+              <PageList />
+              <AddressList />
+              <OffsetList />
+            </ExternalConsole>
+            <CustomName>Radar Screen</CustomName>
+            <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
+            <RecordingEnabled>true</RecordingEnabled>
+            <Muted>false</Muted>
+          </Output>
+          <Output ID="10">
+            <GridRowHeight>20</GridRowHeight>
+            <ControlOutputData>
+              <OutputTypeByte>0</OutputTypeByte>
+              <ControlOutputNumber>10</ControlOutputNumber>
+              <TextInverted>false</TextInverted>
+              <NormallyOn>false</NormallyOn>
+              <HideInAnimation>false</HideInAnimation>
+            </ControlOutputData>
+            <MinValue>0</MinValue>
+            <DMX_Offset>1</DMX_Offset>
+            <ViewAsByte>6</ViewAsByte>
+            <IsVisible>true</IsVisible>
+            <DMX_Mask>2</DMX_Mask>
+            <CustomColor />
+            <ExternalConsole>
+              <PageList />
+              <AddressList />
+              <OffsetList />
+            </ExternalConsole>
+            <CustomName>Color Bar Screen</CustomName>
+            <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
+            <RecordingEnabled>true</RecordingEnabled>
+            <Muted>false</Muted>
+          </Output>
+          <Output ID="11">
+            <GridRowHeight>20</GridRowHeight>
+            <ControlOutputData>
+              <OutputTypeByte>0</OutputTypeByte>
+              <ControlOutputNumber>11</ControlOutputNumber>
+              <TextInverted>false</TextInverted>
+              <NormallyOn>false</NormallyOn>
+              <HideInAnimation>false</HideInAnimation>
+            </ControlOutputData>
+            <MinValue>0</MinValue>
+            <DMX_Offset>1</DMX_Offset>
+            <ViewAsByte>6</ViewAsByte>
+            <IsVisible>true</IsVisible>
+            <DMX_Mask>4</DMX_Mask>
+            <CustomColor />
+            <ExternalConsole>
+              <PageList />
+              <AddressList />
+              <OffsetList />
+            </ExternalConsole>
+            <CustomName>LED Bank 1</CustomName>
+            <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
+            <RecordingEnabled>false</RecordingEnabled>
+            <Muted>false</Muted>
+          </Output>
+          <Output ID="12">
+            <GridRowHeight>20</GridRowHeight>
+            <ControlOutputData>
+              <OutputTypeByte>0</OutputTypeByte>
+              <ControlOutputNumber>12</ControlOutputNumber>
+              <TextInverted>false</TextInverted>
+              <NormallyOn>false</NormallyOn>
+              <HideInAnimation>false</HideInAnimation>
+            </ControlOutputData>
+            <MinValue>0</MinValue>
+            <DMX_Offset>1</DMX_Offset>
+            <ViewAsByte>6</ViewAsByte>
+            <IsVisible>true</IsVisible>
+            <DMX_Mask>8</DMX_Mask>
+            <CustomColor />
+            <ExternalConsole>
+              <PageList />
+              <AddressList />
+              <OffsetList />
+            </ExternalConsole>
+            <CustomName>LED Bank 2</CustomName>
+            <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
+            <RecordingEnabled>false</RecordingEnabled>
+            <Muted>false</Muted>
+          </Output>
+          <Output ID="13">
+            <GridRowHeight>120</GridRowHeight>
+            <MinValue>0</MinValue>
+            <DMX_Offset>6</DMX_Offset>
+            <ViewAsByte>3</ViewAsByte>
+            <IsVisible>true</IsVisible>
+            <DMX_Mask>255</DMX_Mask>
+            <CustomColor>#400080</CustomColor>
+            <ExternalConsole>
+              <PageList />
+              <AddressList />
+              <OffsetList />
+            </ExternalConsole>
+            <CustomName>RM1 Portrait LED</CustomName>
+            <DefaultValue xsi:type="xsd:unsignedByte">0</DefaultValue>
+            <RecordingEnabled>true</RecordingEnabled>
+            <Muted>false</Muted>
+          </Output>
+          <Output ID="14">
+            <GridRowHeight>120</GridRowHeight>
+            <MinValue>0</MinValue>
+            <DMX_Offset>7</DMX_Offset>
+            <ViewAsByte>3</ViewAsByte>
+            <IsVisible>true</IsVisible>
+            <DMX_Mask>255</DMX_Mask>
+            <CustomColor />
+            <ExternalConsole>
+              <PageList />
+              <AddressList />
+              <OffsetList />
+            </ExternalConsole>
+            <CustomName>C1 Leftt LED</CustomName>
+            <DefaultValue xsi:type="xsd:unsignedByte">0</DefaultValue>
+            <RecordingEnabled>true</RecordingEnabled>
+            <Muted>false</Muted>
+          </Output>
+          <Output ID="15">
+            <GridRowHeight>120</GridRowHeight>
+            <MinValue>0</MinValue>
+            <DMX_Offset>8</DMX_Offset>
+            <ViewAsByte>3</ViewAsByte>
+            <IsVisible>true</IsVisible>
+            <DMX_Mask>255</DMX_Mask>
+            <CustomColor />
+            <ExternalConsole>
+              <PageList />
+              <AddressList />
+              <OffsetList />
+            </ExternalConsole>
+            <CustomName>C1 Right LED</CustomName>
+            <DefaultValue xsi:type="xsd:unsignedByte">0</DefaultValue>
+            <RecordingEnabled>true</RecordingEnabled>
+            <Muted>false</Muted>
+          </Output>
+          <Output ID="16">
+            <GridRowHeight>120</GridRowHeight>
+            <MinValue>0</MinValue>
+            <DMX_Offset>9</DMX_Offset>
+            <ViewAsByte>3</ViewAsByte>
+            <IsVisible>true</IsVisible>
+            <DMX_Mask>255</DMX_Mask>
+            <CustomColor />
+            <ExternalConsole>
+              <PageList />
+              <AddressList />
+              <OffsetList />
+            </ExternalConsole>
+            <CustomName>RM2 Map Portrait LED</CustomName>
+            <DefaultValue xsi:type="xsd:unsignedByte">0</DefaultValue>
+            <RecordingEnabled>true</RecordingEnabled>
+            <Muted>false</Muted>
+          </Output>
+        </Outputs>
+        <Inputs>
+          <ControlInput xsi:type="ControlInputOnOff">
+            <InputTypeByte>0</InputTypeByte>
+            <ControlInputNumber>1</ControlInputNumber>
+            <InputNumber>1</InputNumber>
+            <Offset>0</Offset>
+            <TextInverted>false</TextInverted>
+            <Mask>1</Mask>
+          </ControlInput>
+          <ControlInput xsi:type="ControlInputOnOff">
+            <InputTypeByte>0</InputTypeByte>
+            <ControlInputNumber>2</ControlInputNumber>
+            <InputNumber>2</InputNumber>
+            <Offset>0</Offset>
+            <TextInverted>false</TextInverted>
+            <Mask>2</Mask>
+          </ControlInput>
+          <ControlInput xsi:type="ControlInputOnOff">
+            <InputTypeByte>0</InputTypeByte>
+            <ControlInputNumber>3</ControlInputNumber>
+            <InputNumber>3</InputNumber>
+            <Offset>0</Offset>
+            <TextInverted>false</TextInverted>
+            <Mask>4</Mask>
+          </ControlInput>
+          <ControlInput xsi:type="ControlInputOnOff">
+            <InputTypeByte>0</InputTypeByte>
+            <ControlInputNumber>4</ControlInputNumber>
+            <InputNumber>4</InputNumber>
+            <Offset>0</Offset>
+            <TextInverted>false</TextInverted>
+            <Mask>8</Mask>
+          </ControlInput>
+          <ControlInput xsi:type="ControlInputOnOff">
+            <InputTypeByte>0</InputTypeByte>
+            <ControlInputNumber>5</ControlInputNumber>
+            <InputNumber>5</InputNumber>
+            <Offset>0</Offset>
+            <TextInverted>false</TextInverted>
+            <Mask>16</Mask>
+          </ControlInput>
+          <ControlInput xsi:type="ControlInputOnOff">
+            <InputTypeByte>0</InputTypeByte>
+            <ControlInputNumber>6</ControlInputNumber>
+            <InputNumber>6</InputNumber>
+            <Offset>0</Offset>
+            <TextInverted>false</TextInverted>
+            <Mask>32</Mask>
+          </ControlInput>
+          <ControlInput xsi:type="ControlInputOnOff">
+            <InputTypeByte>0</InputTypeByte>
+            <ControlInputNumber>7</ControlInputNumber>
+            <InputNumber>7</InputNumber>
+            <Offset>0</Offset>
+            <TextInverted>false</TextInverted>
+            <Mask>64</Mask>
+          </ControlInput>
+          <ControlInput xsi:type="ControlInputOnOff">
+            <InputTypeByte>0</InputTypeByte>
+            <ControlInputNumber>8</ControlInputNumber>
+            <InputNumber>8</InputNumber>
+            <Offset>0</Offset>
+            <TextInverted>false</TextInverted>
+            <Mask>128</Mask>
+          </ControlInput>
+        </Inputs>
+        <ControlOutputsInputs />
+        <AnalogInputs />
+        <IsVisible>true</IsVisible>
+        <DimmableOutputsEnabled>4</DimmableOutputsEnabled>
+        <DeviceModelString>218</DeviceModelString>
+      </Device>
+    </Devices>
+  </DeviceList>
+  <SceneList>
+    <Scenes>
+      <Scene ID="Ambient-0">
+        <CustomName>Beginning</CustomName>
+      </Scene>
+      <Scene ID="Input1-0">
+        <CustomName>Key Card Authorized</CustomName>
+      </Scene>
+      <Scene ID="Input2-0">
+        <CustomName>Lever Puzzle Solved</CustomName>
+      </Scene>
+      <Scene ID="Input3-0">
+        <CustomName />
+      </Scene>
+      <Scene ID="Input4-0">
+        <CustomName>Telephone Actviated</CustomName>
+      </Scene>
+      <Scene ID="Input5-0">
+        <CustomName>Room 2 Key Pad Authorize</CustomName>
+      </Scene>
+      <Scene ID="Input6-0">
+        <CustomName>Power Cord Puzzle</CustomName>
+      </Scene>
+      <Scene ID="Input7-0">
+        <CustomName>Dial Puzzle Solved</CustomName>
+      </Scene>
+      <Scene ID="Input8-0">
+        <CustomName>Red Button Pressed</CustomName>
+      </Scene>
+    </Scenes>
+    <CurrentSceneID>Input7-0</CurrentSceneID>
+  </SceneList>
+  <SceneGroupNameList>
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+  </SceneGroupNameList>
+  <Variables>
+    <BoolVariables>
+      <BoolVariable />
+      <BoolVariable />
+      <BoolVariable />
+      <BoolVariable />
+      <BoolVariable />
+      <BoolVariable />
+      <BoolVariable />
+      <BoolVariable />
+      <BoolVariable />
+      <BoolVariable />
+      <BoolVariable />
+      <BoolVariable />
+      <BoolVariable />
+      <BoolVariable />
+      <BoolVariable />
+      <BoolVariable />
+    </BoolVariables>
+    <IntVariables>
+      <IntVariable />
+      <IntVariable />
+      <IntVariable />
+      <IntVariable />
+      <IntVariable />
+      <IntVariable />
+      <IntVariable />
+      <IntVariable />
+    </IntVariables>
+  </Variables>
+  <RfidTags>
+    <RfidTag>
+      <Number>1</Number>
+    </RfidTag>
+    <RfidTag>
+      <Number>2</Number>
+    </RfidTag>
+    <RfidTag>
+      <Number>3</Number>
+    </RfidTag>
+    <RfidTag>
+      <Number>4</Number>
+    </RfidTag>
+    <RfidTag>
+      <Number>5</Number>
+    </RfidTag>
+    <RfidTag>
+      <Number>6</Number>
+    </RfidTag>
+    <RfidTag>
+      <Number>7</Number>
+    </RfidTag>
+    <RfidTag>
+      <Number>8</Number>
+    </RfidTag>
+  </RfidTags>
+  <DisableControlInputSlaveCommunication>false</DisableControlInputSlaveCommunication>
+</Show>
