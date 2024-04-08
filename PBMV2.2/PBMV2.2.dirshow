@@ -173,7 +173,7 @@
             </ExternalConsole>
             <CustomName>C2 Floor LED x2</CustomName>
             <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
-            <RecordingEnabled>false</RecordingEnabled>
+            <RecordingEnabled>true</RecordingEnabled>
             <Muted>false</Muted>
           </Output>
           <Output ID="7">
@@ -298,7 +298,7 @@
             </ExternalConsole>
             <CustomName>LED Bank 1</CustomName>
             <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
-            <RecordingEnabled>false</RecordingEnabled>
+            <RecordingEnabled>true</RecordingEnabled>
             <Muted>false</Muted>
           </Output>
           <Output ID="12">
@@ -323,7 +323,7 @@
             </ExternalConsole>
             <CustomName>LED Bank 2</CustomName>
             <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
-            <RecordingEnabled>false</RecordingEnabled>
+            <RecordingEnabled>true</RecordingEnabled>
             <Muted>false</Muted>
           </Output>
           <Output ID="13">
@@ -503,7 +503,7 @@
         <CustomName>Red Button Pressed</CustomName>
       </Scene>
     </Scenes>
-    <CurrentSceneID>Input1-0</CurrentSceneID>
+    <CurrentSceneID>Input3-0</CurrentSceneID>
   </SceneList>
   <SceneGroupNameList>
     <string xsi:nil="true" />
