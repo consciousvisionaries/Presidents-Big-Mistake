@@ -148,7 +148,7 @@
             </ExternalConsole>
             <CustomName>C2 3 Dial Puzzle LED</CustomName>
             <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
-            <RecordingEnabled>false</RecordingEnabled>
+            <RecordingEnabled>true</RecordingEnabled>
             <Muted>false</Muted>
           </Output>
           <Output ID="6">
