@@ -46,9 +46,9 @@
               <AddressList />
               <OffsetList />
             </ExternalConsole>
-            <CustomName>RED BUTTON Access</CustomName>
+            <CustomName>RB Maglock</CustomName>
             <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
-            <RecordingEnabled>false</RecordingEnabled>
+            <RecordingEnabled>true</RecordingEnabled>
             <Muted>false</Muted>
           </Output>
           <Output ID="2">
@@ -96,7 +96,7 @@
               <AddressList />
               <OffsetList />
             </ExternalConsole>
-            <CustomName />
+            <CustomName>Reset Escape Keeper</CustomName>
             <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
             <RecordingEnabled>true</RecordingEnabled>
             <Muted>false</Muted>
@@ -221,7 +221,7 @@
               <AddressList />
               <OffsetList />
             </ExternalConsole>
-            <CustomName />
+            <CustomName>RB LED</CustomName>
             <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
             <RecordingEnabled>true</RecordingEnabled>
             <Muted>false</Muted>
@@ -273,7 +273,7 @@
             </ExternalConsole>
             <CustomName>Color Bar Screen</CustomName>
             <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
-            <RecordingEnabled>true</RecordingEnabled>
+            <RecordingEnabled>false</RecordingEnabled>
             <Muted>false</Muted>
           </Output>
           <Output ID="11">
@@ -485,7 +485,7 @@
         <CustomName>Lever Puzzle Solved</CustomName>
       </Scene>
       <Scene ID="Input3-0">
-        <CustomName />
+        <CustomName>Open RB Access</CustomName>
       </Scene>
       <Scene ID="Input4-0">
         <CustomName>Telephone Actviated</CustomName>
