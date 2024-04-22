@@ -29,10 +29,10 @@
           <Output ID="1">
             <GridRowHeight>20</GridRowHeight>
             <ControlOutputData>
-              <OutputTypeByte>0</OutputTypeByte>
+              <OutputTypeByte>2</OutputTypeByte>
               <ControlOutputNumber>1</ControlOutputNumber>
               <TextInverted>false</TextInverted>
-              <NormallyOn>false</NormallyOn>
+              <NormallyOn>true</NormallyOn>
               <HideInAnimation>false</HideInAnimation>
             </ControlOutputData>
             <MinValue>0</MinValue>
@@ -54,7 +54,7 @@
           <Output ID="2">
             <GridRowHeight>20</GridRowHeight>
             <ControlOutputData>
-              <OutputTypeByte>3</OutputTypeByte>
+              <OutputTypeByte>2</OutputTypeByte>
               <ControlOutputNumber>2</ControlOutputNumber>
               <TextInverted>false</TextInverted>
               <NormallyOn>true</NormallyOn>
@@ -73,7 +73,7 @@
             </ExternalConsole>
             <CustomName>Dual Door Magnet</CustomName>
             <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
-            <RecordingEnabled>false</RecordingEnabled>
+            <RecordingEnabled>true</RecordingEnabled>
             <Muted>false</Muted>
           </Output>
           <Output ID="3">
@@ -273,7 +273,7 @@
             </ExternalConsole>
             <CustomName>Color Bar Screen</CustomName>
             <DefaultValue xsi:type="xsd:boolean">false</DefaultValue>
-            <RecordingEnabled>false</RecordingEnabled>
+            <RecordingEnabled>true</RecordingEnabled>
             <Muted>false</Muted>
           </Output>
           <Output ID="11">
@@ -421,7 +421,7 @@
             <ControlInputNumber>3</ControlInputNumber>
             <InputNumber>3</InputNumber>
             <Offset>0</Offset>
-            <TextInverted>false</TextInverted>
+            <TextInverted>true</TextInverted>
             <Mask>4</Mask>
           </ControlInput>
           <ControlInput xsi:type="ControlInputOnOff">
@@ -429,7 +429,7 @@
             <ControlInputNumber>4</ControlInputNumber>
             <InputNumber>4</InputNumber>
             <Offset>0</Offset>
-            <TextInverted>true</TextInverted>
+            <TextInverted>false</TextInverted>
             <Mask>8</Mask>
           </ControlInput>
           <ControlInput xsi:type="ControlInputOnOff">
@@ -485,7 +485,7 @@
         <CustomName>Lever Puzzle Solved</CustomName>
       </Scene>
       <Scene ID="Input3-0">
-        <CustomName>Open RB Access</CustomName>
+        <CustomName>Magnet Puzzle</CustomName>
       </Scene>
       <Scene ID="Input4-0">
         <CustomName>Telephone Actviated</CustomName>
