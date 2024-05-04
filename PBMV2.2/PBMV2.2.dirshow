@@ -421,7 +421,8 @@
             <ControlInputNumber>3</ControlInputNumber>
             <InputNumber>3</InputNumber>
             <Offset>0</Offset>
-            <TextInverted>true</TextInverted>
+            <TextInverted>false</TextInverted>
+            <Label>Magnet Puzzle</Label>
             <Mask>4</Mask>
           </ControlInput>
           <ControlInput xsi:type="ControlInputOnOff">
@@ -481,17 +482,32 @@
       <Scene ID="Input1-0">
         <CustomName>Key Card Authorized</CustomName>
       </Scene>
+      <Scene ID="Input1-1">
+        <CustomName>Key Card Repeat</CustomName>
+      </Scene>
       <Scene ID="Input2-0">
         <CustomName>Lever Puzzle Solved</CustomName>
       </Scene>
       <Scene ID="Input3-0">
         <CustomName>Magnet Puzzle</CustomName>
       </Scene>
+      <Scene ID="Input3-1">
+        <CustomName>Magnet Calm</CustomName>
+      </Scene>
+      <Scene ID="Input3-2">
+        <CustomName>Magnet Urgent</CustomName>
+      </Scene>
       <Scene ID="Input4-0">
         <CustomName>Telephone Actviated</CustomName>
       </Scene>
+      <Scene ID="Input4-1">
+        <CustomName />
+      </Scene>
       <Scene ID="Input5-0">
         <CustomName>Room 2 Key Pad Authorize</CustomName>
+      </Scene>
+      <Scene ID="Input5-1">
+        <CustomName>Repeat</CustomName>
       </Scene>
       <Scene ID="Input6-0">
         <CustomName>Power Cord Puzzle</CustomName>
@@ -503,7 +519,7 @@
         <CustomName>Red Button Pressed</CustomName>
       </Scene>
     </Scenes>
-    <CurrentSceneID>Input3-0</CurrentSceneID>
+    <CurrentSceneID>Input4-1</CurrentSceneID>
   </SceneList>
   <SceneGroupNameList>
     <string xsi:nil="true" />
