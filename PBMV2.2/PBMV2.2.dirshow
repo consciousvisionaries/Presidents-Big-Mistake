@@ -10,7 +10,7 @@
     <HideGlobalSettingServosPanel>false</HideGlobalSettingServosPanel>
     <HideSceneSettingNewBehaviorPanel>false</HideSceneSettingNewBehaviorPanel>
     <HideSceneSettingSoundPanel>false</HideSceneSettingSoundPanel>
-    <HideSceneSettingDelaysAndLengthPanel>false</HideSceneSettingDelaysAndLengthPanel>
+    <HideSceneSettingDelaysAndLengthPanel>true</HideSceneSettingDelaysAndLengthPanel>
     <HideSceneSettingOldBehaviorPanel>false</HideSceneSettingOldBehaviorPanel>
   </Preferences>
   <Joystick>
@@ -1112,6 +1112,9 @@
       <Scene ID="Input2-0">
         <CustomName>Lever Puzzle Solved</CustomName>
       </Scene>
+      <Scene ID="Input2-1">
+        <CustomName />
+      </Scene>
       <Scene ID="Input3-0">
         <CustomName>Magnet Puzzle</CustomName>
       </Scene>
@@ -1136,6 +1139,9 @@
       <Scene ID="Input6-0">
         <CustomName>Power Cord Puzzle</CustomName>
       </Scene>
+      <Scene ID="Input6-1">
+        <CustomName />
+      </Scene>
       <Scene ID="Input7-0">
         <CustomName>Dial Puzzle Solved</CustomName>
       </Scene>
@@ -1146,7 +1152,7 @@
         <CustomName>Red Button Pressed</CustomName>
       </Scene>
     </Scenes>
-    <CurrentSceneID>Input3-2</CurrentSceneID>
+    <CurrentSceneID>Ambient-0</CurrentSceneID>
   </SceneList>
   <SceneGroupNameList>
     <string xsi:nil="true" />
