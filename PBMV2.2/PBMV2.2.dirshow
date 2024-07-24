@@ -1152,7 +1152,7 @@
         <CustomName>Red Button Pressed</CustomName>
       </Scene>
     </Scenes>
-    <CurrentSceneID>Ambient-0</CurrentSceneID>
+    <CurrentSceneID>Input6-0</CurrentSceneID>
   </SceneList>
   <SceneGroupNameList>
     <string xsi:nil="true" />
